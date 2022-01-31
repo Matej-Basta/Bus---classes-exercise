@@ -17,7 +17,7 @@ class Bus {
         this.last_station++;
       }
     } else {
-      this.last_station += this.stations.length - 1;
+      last_station += this.stations.length - 1;
       if (this.last_station !== 0) {
         this.last_station--;
       }
